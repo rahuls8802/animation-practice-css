@@ -212,6 +212,15 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+/* This is for changing color on selection of text on browser */
+.container-1 > p::selection {
+  background: lightgreen;
+  color: #000;
+}
+#showcase > h1::selection {
+  background: lightgreen;
+  color: #000;
+}
 @keyframes my {
   0% {
     background: white;
@@ -350,3 +359,18 @@
 }
 /* for using image darker we use rgba with 4 value */
 /* linear-gradiant styles ends here */
+
+/* Image filter examples starts here */
+.img-filter-examples > img {
+  max-height: 80vh;
+  padding: 1rem 1rem;
+  /* filter: contrast(200%); */
+  /* filter: brightness(90%); */
+  /* filter: drop-shadow(-8px, -8px, 5px red); */
+  /* filter: grayscale(50%); */
+  /* filter: hue-rotate(50deg); */
+  /* filter: invert(10%); */
+  /* filter: opacity(100%); */
+  filter: sepia(500%);
+}
+/* Image filter examples ends here */
