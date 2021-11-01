@@ -188,7 +188,7 @@ body {
   color: #fff;
   border: 1px solid silver;
   display: inline-block;
-  margin-left: 25rem;
+  margin-left: 30rem;
   position: relative;
   z-index: 10000;
 }
@@ -367,7 +367,7 @@ body {
 
 /* Image filter examples starts here */
 .img-filter-examples > img {
-  max-height: 80vh;
+  max-height: 50vh;
   padding: 1rem 1rem;
   /* filter: contrast(200%); */
   /* filter: brightness(90%); */
@@ -379,3 +379,7 @@ body {
   filter: sepia(500%);
 }
 /* Image filter examples ends here */
+
+/* Swiper-js Example starts */
+
+/* Swiper-js Example ends */
